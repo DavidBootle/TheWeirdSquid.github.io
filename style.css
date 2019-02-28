@@ -1,1 +1,34 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
 
+/***************************
+    FULL PAGE BACKGROUND
+***************************/
+.full-page-background {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.full-page-background .text-holder p, .full-page-background .text-holder h1 {
+    margin: 0;
+}
+.full-page-background .text-holder .main-title {
+    text-align: center;
+
+}
+
+/*************************
+    MOBILE DEVICES
+*************************/
+@media only screen and (max-width: 600px) {
+    .full-page-background {
+        background-attachment: scroll;
+    }
+}
