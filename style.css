@@ -9,8 +9,12 @@ body, html {
 h1 {
     font-family: "Montserrat";
 }
-p {
+p, a {
     font-family: "Open Sans";
+}
+a {
+    text-decoration: underline;
+    color: black;
 }
 
 /**************************
@@ -20,17 +24,35 @@ p {
 div.section {
     /* This is for purely organizational purposes */
     margin: 0;
-    padding: 30px 60px;
-    width: 100%;
-    display: inline-block;
-}
-div.container-1 {
-    padding: 30px 60px;
     width: 100%;
 }
-div.container-2 {
+div.section::after {
+    clear: both;
+}
+.column-50 {
     width: 50%;
-    display: inline-block;
+    height: 100%;
+    float: left;
+}
+.column-33 {
+    width: 33.33%;
+    height: 100%;
+    float: left;
+}
+.column-66 {
+    width: 66.66%;
+    height: 100%;
+    float: left;
+}
+.column-25 {
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+.column-75 {
+    width: 75%;
+    height: 100%;
+    float: left;
 }
 
 /***************************
