@@ -7,7 +7,8 @@
 "TOTAL_MEMORY": 268435456,
 "graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
 "webglContextAttributes": {"preserveDrawingBuffer": false},
+"backgroundUrl": "boulderfaceweb.jpg",
 "splashScreenStyle": "Dark",
-"backgroundColor": "#7C804E",
+"backgroundColor": "#FFFFFF",
 "cacheControl": {"default": "must-revalidate"}
 }
